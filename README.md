@@ -11,4 +11,4 @@
  <p>Link can be found here</p>
 <a>https://8emr46huc6.execute-api.us-east-1.amazonaws.com/api/users/</a><br/>
 <h2>The Stack</h2>
-<p>This is an expressjs application connected to a mongodb database using the mongoose orm</p> 
+<p>This is an expressjs application connected to a mongodb database using the mongoose odm</p> 
