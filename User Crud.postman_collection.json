@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "9d7080f4-9c5d-4810-b684-500566d659a5",
+		"name": "User Crud",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://8emr46huc6.execute-api.us-east-1.amazonaws.com/api/users/",
+					"protocol": "https",
+					"host": [
+						"8emr46huc6",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"api",
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get One",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://8emr46huc6.execute-api.us-east-1.amazonaws.com/api/users/myname2@email.com",
+					"protocol": "https",
+					"host": [
+						"8emr46huc6",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"api",
+						"users",
+						"myname2@email.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"first_name\": \"Mike\",\n  \"last_name\": \"101\",\n  \"email\":\"myname9@email.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://8emr46huc6.execute-api.us-east-1.amazonaws.com/api/users/",
+					"protocol": "https",
+					"host": [
+						"8emr46huc6",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"api",
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update User",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"first_name\": \"Michael\",\n  \"last_name\": \"E\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://8emr46huc6.execute-api.us-east-1.amazonaws.com/api/users/myname9@email.com",
+					"protocol": "https",
+					"host": [
+						"8emr46huc6",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"api",
+						"users",
+						"myname9@email.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://8emr46huc6.execute-api.us-east-1.amazonaws.com/api/users/myname9@email.com",
+					"protocol": "https",
+					"host": [
+						"8emr46huc6",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"api",
+						"users",
+						"myname9@email.com"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
