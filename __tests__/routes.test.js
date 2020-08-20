@@ -5,8 +5,6 @@ const app = require('../app.js')
 
 const Data = require('../data_test/requestData.js');
 const User = require('../models/user.model.js');
-const userController = require('../controllers/user.controllers');
-
 
 
 
